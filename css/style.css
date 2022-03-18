@@ -268,7 +268,7 @@ header.white-bg #mega-menu-wrapper .nav>li:hover>a,.our-team-style-two .single-t
 .single-blog-list-item .post-data .post-info li a:hover,.single-blog-list-item:hover .post-data  h3 a,.blog-sidebar .sidebar-recent-news ul li:hover .post h5 a,
 .blog-details-main-content .tag-section .tag li a:hover,.blog-details-main-content .comment-box .single-comment .comment .reply:hover,.contact-information .address a:hover,
 .shop-sidebar .shop-sidebar-popular-product li:hover .text a,.shop-sidebar .shop-sidebar-list ul li a:hover,.shop-product-wrapper .single-product:hover h6 a  {
-  color:#c3a165;
+  color:##C83348;
 }
 .p-bg-color,.scroll-top,body .theme-button:hover,#theme-main-banner a.theme-button:after,#mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li a:before,.theme-title h6:before,
 .company-goal .main-container .single-demo .text p:before,.bootstrap-select.btn-group .dropdown-menu li.selected a,.bootstrap-select.btn-group .dropdown-menu li:hover a,
@@ -276,12 +276,12 @@ header.white-bg #mega-menu-wrapper .nav>li:hover>a,.our-team-style-two .single-t
 .portfolio-details .theme-counter .counter-wrapper .clearfix .contact-button:hover,.single-blog-list-item .post-data .read-more:hover,.theme-pagination-one.style-two ul li:last-child:before,
 .blog-sidebar .sidebar-search button:hover,.blog-sidebar .sidebar-keyword ul li a:hover,.blog-details-main-content .mark-text:before,.blog-details-main-content .author-text .text ul li a:hover,
 .form-styl-one input[type="submit"]:hover,.form-styl-one input[type="submit"]:focus,.shop-sidebar .shop-filter form .filter-button:hover,.related-product .owl-theme .owl-nav [class*=owl-]:hover {
-  background: #c3a165;
+  background: ##C83348;
 }
 body .theme-button,.work-showcase .isotop-menu-wrapper li.is-checked,.our-team-style-two .all-member:hover,.blog-details-main-content .author-text .text ul li a:hover,
 .related-product .owl-theme .owl-nav [class*=owl-]:hover {
   border-style: solid;
-  border-color:#c3a165;
+  border-color:##C83348;
 }
 
 /*------------------------------ Theme menu Style One ----------------------*/
@@ -791,7 +791,7 @@ header .main-container .header-wrapper .header-right-widget .search-option form 
 #isotop-gallery-wrapper .isotop-item {width: 33.33333%;padding: 0 15px;margin-bottom: 25px;}
 #isotop-gallery-wrapper {margin-top: 70px;}
 #isotop-gallery-wrapper .single-item {
-  background: linear-gradient(-45deg, #c3a165 0%,#2c3a6f 100%);
+  background: linear-gradient(-45deg, ##C83348 0%,#2c3a6f 100%);
   overflow: hidden;
   position: relative;
   -webkit-transition: all 0.35s ease-in-out;
@@ -1949,7 +1949,7 @@ footer .footer-bottom-widget ul li a {
   margin: 0;
 }
 .shop-sidebar .slider-selection {
-  background: #c3a165;
+  background: ##C83348;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
