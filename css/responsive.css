@@ -1,0 +1,167 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 01/11/2018.
+    Theme Name   : CYRO.
+    Description  : Cyro - Portfolio HTML Template.
+    Version      : 1.0.
+   
+*/
+
+@media (min-width: 992px) {
+  .container {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+}
+@media (max-width: 1199px) {
+  .portfolio-details .theme-counter .counter-wrapper,.theme-counter .counter-wrapper {padding-left: 0;}
+  .theme-counter .counter-wrapper h3 {margin-top: 0;}
+  .contact-information .wrapper {padding-left: 0;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #mega-menu-wrapper {padding-left: 80px;}
+  .company-goal .main-container,#client-carousel {width: 90%;}
+  .core-features .feature-wrapper-box .single-feature {padding-left: 80px;}
+  footer .footer-top-widget .footer-menu {padding-left: 60px;}
+  header .main-container {padding-left: 40px;padding-right: 40px;}
+  .project-v3 .main-wrapper {padding: 0 50px;}
+  #isotop-gallery-wrapper .grid-sizer.grid-double, #isotop-gallery-wrapper .isotop-item.grid-fix {width: 33.3333%;}
+  .theme-counter h2 {font-size: 45px;}
+  .theme-counter .counter-wrapper .clearfix p {font-size: 16px;}
+  .portfolio-details .theme-counter h2:before,.theme-counter h2:before {right: -15px;}
+  .featured-service .single-featured-service .service-text {padding: 20px 0 13px 0;}
+  .featured-service .single-featured-service .service-text strong {line-height: 55px;}
+}
+
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  header .main-container .header-wrapper .logo {left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);}
+  header .main-container {padding: 20px 15px 10px;}
+  header .main-container .header-wrapper .header-right-widget {top:-5px;}
+  .company-goal .main-container,#client-carousel {width: 100%;}
+  .our-blog-grid .single-blog .post h3 a br,.all-core-service:before {display: none;}
+  footer .footer-top-widget .logo,footer .footer-top-widget .social-icon {position: static;}
+  footer .footer-top-widget .social-icon li a {margin: 20px 5px 35px 5px;}
+  .project-v3 .main-wrapper {padding: 0 15px;}
+  .theme-counter h2 {padding-right: 15px;margin-bottom: 40px;}
+  .portfolio-details .theme-counter h2:before,.theme-counter h2:before {right: 0;}
+  .theme-counter .counter-wrapper .clearfix p {float: none;margin: 0 0 20px 0;}
+  .theme-counter .counter-wrapper .clearfix .contact-button {float: none;}
+  .featured-service .single-featured-service .image {width: 70%;}
+  .featured-service .single-featured-service .service-text {width: 100%;}
+  .featured-service .single-featured-service:nth-child(odd) .service-text,
+  .featured-service .single-featured-service:nth-child(even) .service-text {padding-right: 15px;padding-left: 50px;}
+  .shop-sidebar,.blog-sidebar {margin-top: 100px;}
+  .contact-information .wrapper {padding-top: 40px;}
+} 
+/*(max-width: 991px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .our-blog-grid .single-blog .post p {left:10px;right: 10px;bottom: 10px;}
+  .our-blog-grid .single-blog .post>div {left:10px;}
+  .our-blog-grid .single-blog:hover .post>div {
+      -webkit-transform:translateY(-70%);
+              transform:translateY(-70%);
+    }
+  #isotop-gallery-wrapper .grid-sizer.grid-double, #isotop-gallery-wrapper .isotop-item.grid-fix {width: 33.3333%;}
+  #theme-main-banner {height: 750px !important;}
+}
+
+/*(min-width: 768px) and (max-width: 991px)*/
+@media (max-width: 767px) {
+  .our-goal-banner .opacity h2 br {display: none;}
+  #isotop-gallery-wrapper .grid-sizer, #isotop-gallery-wrapper .isotop-item {width: 50%;}
+  .isotop-menu-wrapper {width: 100%;}
+  .work-showcase .theme-main-select-tab {float: left;width: 150px;margin-bottom: 20px;}
+  .core-features .feature-wrapper-box .single-feature {padding-left: 80px;padding-right: 15px;}
+  #client-carousel .item p {font-size: 24px;line-height: 40px;}
+  #client-carousel .carousel-indicators li {width: 100%;}
+  .theme-inner-banner h2 {font-size: 40px;padding: 0 60px;}
+  .theme-inner-banner span {font-size: 50px;}
+  #isotop-gallery-wrapper .grid-sizer.grid-double, #isotop-gallery-wrapper .isotop-item.grid-fix {width: 50%;}
+  .featured-service.style-two .title {width: 100%;}
+  .product-details .product-info {margin-top: 40px;}
+  #theme-main-banner {height: 650px !important;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+  #success, #error {
+      width: 86%;
+      height: auto;
+      top: calc(50% - 50px);
+      left: 7%;
+      padding: 30px 10px;
+  }
+  .our-goal-banner .opacity h2,.feature-section h2 {font-size: 45px;line-height: 55px;}
+  .our-goal-banner .opacity {padding-top: 90px;}
+  .large-text-logo:before {font-size: 380px;}
+  .core-features .feature-wrapper-box .col-xs-6 {width: 100%;}
+  footer .footer-bottom-widget h6,footer .footer-bottom-widget ul {float: none;text-align: center;}
+  footer .footer-bottom-widget ul li a {margin: 5px 15px 0;}
+}
+
+@media (max-width: 600px) {
+  .blog-details-main-content .author-text .text {width: 100%;padding-left: 10px;}
+  #theme-main-banner h1 {font-size: 50px;line-height: 60px;}
+  #theme-main-banner h1 b {font-size: 55px;}
+  #theme-main-banner a.theme-button {margin-left: 100px;margin-top: 20px;}
+  #theme-main-banner a.theme-button:after {left:-100px;width: 85px;}
+  #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul {display: none;}
+  #theme-main-banner .go-down {bottom: 10px;}
+}
+
+@media (max-width: 550px) {
+  .theme-title a {position: static;margin-top: 25px;}
+  .shop-product-wrapper .col-xs-6 {width: 100%;}
+  .single-blog-list-item .post-data,.blog-details-main-content .reply-form {padding-left: 10px;padding-right: 10px;}
+}
+@media (max-width: 500px) {
+  .our-goal-banner .opacity h2,.feature-section h2 {font-size: 38px;line-height: 50px;}
+  .large-text-logo:before {font-size: 248px;}
+  .theme-counter {margin-bottom: 130px;}
+  .featured-service .single-featured-service .image {width: 100%;}
+  .featured-service .single-featured-service:nth-child(odd) .service-text, .featured-service .single-featured-service:nth-child(even) .service-text {padding-left: 20px;}
+}
+
+@media (max-width: 480px) {
+  .our-blog-grid .single-blog .post p {left:10px;right: 10px;bottom: 10px;}
+  .our-blog-grid .single-blog .post>div {left:10px;}
+  .our-blog-grid .single-blog:hover .post>div {
+      -webkit-transform:translateY(-70%);
+              transform:translateY(-70%);
+    }
+}
+
+@media (max-width: 450px) {
+  #isotop-gallery-wrapper .grid-sizer, #isotop-gallery-wrapper .isotop-item,
+  #isotop-gallery-wrapper .grid-sizer.grid-double, #isotop-gallery-wrapper .isotop-item.grid-fix {width: 100%;}
+  #client-carousel .item p {font-size: 18px;line-height: 40px;}
+  .blog-details-main-content .tag-section ul {width: 100%;}
+  .blog-details-main-content .comment-box {padding-left: 15px;padding-right: 15px;}
+  .blog-details-main-content .comment-box .single-comment.reply-comment {margin-left: 10px;}
+}
+@media (max-width: 400px) {
+  header .main-container .header-wrapper .logo {width: 40%;left:45%;}
+  .company-goal .main-container .single-demo .image-box p br {display: none;}
+  .company-goal .main-container .single-demo .image-box p {left:5px;right:5px;}
+  .our-blog-grid .single-blog .post p {display: none;}
+  .our-blog-grid .single-blog:hover .post>div {
+    -webkit-transform:translateY(-10%);
+            transform:translateY(-10%);
+  }
+  .our-blog-grid .single-blog .post>div {bottom: 10px;}
+  .theme-inner-banner h2 {font-size: 30px;}
+  .theme-inner-banner span {font-size: 35px;}
+  .theme-counter .counter-wrapper .col-xs-6 {width: 100%;}
+  .blog-details-main-content .comment-box .single-comment .comment .reply {position: static;margin-top: 10px;}
+}
+@media (max-width: 380px) {
+  .theme-title h2 {font-size: 48px;line-height: 55px;}
+  .slider.slider-horizontal {width: 100%;}
+  .shop-details .product-review-tab .nav li {float: none;width: 100%;}
+}
