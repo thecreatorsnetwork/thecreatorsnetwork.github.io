@@ -92,7 +92,7 @@
   overflow: hidden;
 }
 #loader {
-  background: url(../images/1.gif);
+  background: url(../images/esperia-welcome.png);
   width: 62px;
   height: 64px;
   position: relative;
@@ -440,7 +440,7 @@ header .main-container .header-wrapper .header-right-widget .search-option form 
 }
 #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent {
   background: #C83348;
-  border-color:#896c39;
+  border-color:#2a2a2a;
 }
 #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul li span {display: none;}
 #theme-main-banner .camera_caption {
