@@ -635,7 +635,8 @@ header .main-container .header-wrapper .header-right-widget .search-option form 
 }
 .our-goal-banner .opacity {
   background: rgba(0,0,0,0.5);
-  padding-top: 120px;
+  padding-top: 20vh;
+  height: 100vh;
 }
 .our-goal-banner .opacity h2 {
   line-height: 70px;
